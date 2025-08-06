@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilsJP.Form", "UtilsJP.Form\UtilsJP.Form.csproj", "{802D7680-D4E2-438D-B0EA-AE5ECC50E75F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilsJP", "UtilsJP\UtilsJP.csproj", "{2B1E1DD5-37F7-4B88-8D5E-2D19498C96D7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UtilsJP.Shared", "UtilsJP.Shared\UtilsJP.Shared.shproj", "{01244922-A764-4804-A257-DCFD9C6CEA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilsJP.WinForm", "UtilsJP.WinForm\UtilsJP.WinForm.csproj", "{C754B853-AAFB-415C-88C3-9BCFE18411EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802D7680-D4E2-438D-B0EA-AE5ECC50E75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802D7680-D4E2-438D-B0EA-AE5ECC50E75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802D7680-D4E2-438D-B0EA-AE5ECC50E75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802D7680-D4E2-438D-B0EA-AE5ECC50E75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1E1DD5-37F7-4B88-8D5E-2D19498C96D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1E1DD5-37F7-4B88-8D5E-2D19498C96D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1E1DD5-37F7-4B88-8D5E-2D19498C96D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1E1DD5-37F7-4B88-8D5E-2D19498C96D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C754B853-AAFB-415C-88C3-9BCFE18411EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C754B853-AAFB-415C-88C3-9BCFE18411EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C754B853-AAFB-415C-88C3-9BCFE18411EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C754B853-AAFB-415C-88C3-9BCFE18411EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AEC2B44-4D6D-49C0-B6B8-3FFBAC78ABB3}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		UtilsJP.Shared\UtilsJP.Shared.projitems*{01244922-a764-4804-a257-dcfd9c6cea3c}*SharedItemsImports = 13
+		UtilsJP.Shared\UtilsJP.Shared.projitems*{2b1e1dd5-37f7-4b88-8d5e-2d19498c96d7}*SharedItemsImports = 5
+		UtilsJP.Shared\UtilsJP.Shared.projitems*{802d7680-d4e2-438d-b0ea-ae5ecc50e75f}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

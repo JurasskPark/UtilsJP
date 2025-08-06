@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>disable</Nullable>
+		<UseWindowsForms>false</UseWindowsForms>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>UtilsJP</RootNamespace>
+		<Authors>Yuriy Pradius</Authors>
+		<Company>Pradius</Company>
+		<Product>Utils JP</Product>
+		<Copyright>Copyright © 2023</Copyright>
+		<Version>6.0.0</Version>
+		<AssemblyVersion>6.0.0.0</AssemblyVersion>
+	</PropertyGroup>
+
+	<Import Project="..\UtilsJP.Shared\UtilsJP.Shared.projitems" Label="Shared" />
+
+</Project>
